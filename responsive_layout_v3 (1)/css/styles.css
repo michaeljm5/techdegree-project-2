@@ -94,6 +94,10 @@ footer {
     .bottom-nav {
         display: none;
     }
+
+    .profile {
+        width: 100%;
+    }
 }
 
 
