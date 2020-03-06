@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+header {
+    text-align: center;
+    background-color: rgb(233, 243, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    font-family: 'Caladea', serif;
+    font-family: 'Open Sans', sans-serif
+}
+
+main {
+    text-align: center;
+    line-height: 1.5;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+.main-nav ul {
+    padding-right: 40px;
+}
+
+.main-nav li {
+    background-color: rgba(255, 255, 255, 0.979);
+    margin-bottom: 10px;
+    list-style-type: none;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.intro {
+    line-height: 1.5;
+}
+
+.projects {
+    margin-bottom: 60px;
+}
+
+.image {
+    max-width: 90%;
+}
+
+.contact {
+    margin-top: 20px;
+    border-bottom: thin solid rgb(126, 118, 118);
+}
+
+.wrapper {
+    min-height: calc(1oovh-59.34px);
+}
+
+.name-bottom {
+    float:left;
+    margin-left: 10px;
+}
+
+.back-to-top {
+    float: right;
+    margin-right: 10px; 
+}

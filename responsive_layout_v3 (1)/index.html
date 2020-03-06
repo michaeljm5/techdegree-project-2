@@ -2,15 +2,18 @@
 <html>
 <head> 
     <title>Michael J. Myers</title>
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caladea|Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <div class="wrapper">
     <header>
 
         <div>
             <h1>Michael James Myers</h1>
-            <nav>
+            <nav class="main-nav">
                 <ul>
                     <li>Home</li>
                     <li>Portfolio</li>
@@ -21,59 +24,60 @@
 
         <div>
             <img src="images/responsive-layout-profile.png" alt="Profile picture of Michael Myers.">
-            <p>Hi, I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            <p class="intro">Hi, I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
         </div>
 
     </header>
     <main>
         <h2>Porfolio</h2>
-            <div>
-                <img src="images/portfolio-1.png" alt="An example image of Michael Myers' marketing app.">
+            <div class="projects">
+                <img src="images/portfolio-1.png" alt="An example image of Michael Myers' marketing app." class="image">
                 <h3>Marketing App</h3>
                 <p>This project shows the front page of a marketing website meant for a specific business I'm interestd in.</p>
             </div>
 
-            <div>
-                <img src="images/portfolio-2.png" alt="An image of Michael Myers' search page.">
+            <div class="projects">
+                <img src="images/portfolio-2.png" alt="An image of Michael Myers' search page." class="image">
                 <h3>Search Page</h3>
-                <p>This projecy searches through a specific database to find information that the user is trying to look up.</p>
+                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
             </div>
 
-            <div>
-                <img src="images/portfolio-3.png" alt="An image of Michael Myers' travel app.">
+            <div class="projects">
+                <img src="images/portfolio-3.png" alt="An image of Michael Myers' travel app." class="image">
                 <h3>Travel App</h3>
                 <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
             </div>
 
-            <div>
-                <img src="images/portfolio-4.png" alt="An image of Michael Myers' favorite spot map.">
+            <div class="projects">
+                <img src="images/portfolio-4.png" alt="An image of Michael Myers' favorite spot map." class="image">
                 <h3>Map of Favorite Spots</h3>
                 <p>This project uses mapping apps to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
             </div>
 
-            <div>
-                <img src="images/portfolio-5.png" alt="An image of Michael Myers' photo gallery from recent trips">
+            <div class="projects">
+                <img src="images/portfolio-5.png" alt="An image of Michael Myers' photo gallery from recent trips" class="image">
                 <h3>Photo Gallery</h3>
                 <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-            </div>
+            </div class="projects">
 
-            <div>
-                <img src="images/portfolio-6.png" alt="An image of Michael Myers' calculator app.">
+            <div class="projects">
+                <img src="images/portfolio-6.png" alt="An image of Michael Myers' calculator app." class="image">
                 <h3>Calculator</h3>
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
             </div>
 
-            <div>
+            <div class="contact">
                 <h4>Contact</h4>
                 <p>If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-                <p>Phone: +1(111)555-1234</p>
-                <p>Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+                <p>Phone: <strong>+1(111)555-1234</strong></p>
+                <p>Email: <a href="mailto:email@yoursite.com"><strong>email@yoursite.com</strong></a></p>
             </div>
 
     </main>
-    <footer>
-        <h5>Michael J. Myers</h5>
-        <h5><a href="#">Back to top</a></h5>
+    </div>
+    <footer class="clearfix">
+       <h5 class="name-bottom">Michael J. Myers</h5>
+       <h5 class="back-to-top"><a href="#">Back to top</a></h5>
     </footer>
 </body>    
 </html>
