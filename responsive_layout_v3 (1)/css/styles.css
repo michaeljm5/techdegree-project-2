@@ -7,6 +7,19 @@
     display: table;
     clear: both;
 }
+
+a:hover {
+    color: rgba(220, 20, 60, 0.603);
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
 header {
     text-align: center;
     background-color: rgb(233, 243, 255);
@@ -30,7 +43,7 @@ h2 {
 }
 
 footer {
-    background-color: rgb(233, 243, 255);
+    background-color: rgb(255, 233, 233);
 }
 
 .main-nav ul {
@@ -77,11 +90,6 @@ footer {
     margin-right: 10px; 
 }
 
-.bottom {
-    background-color: rgb(233, 243, 255);
-}
-
-
 @media (max-width:767px) {
     .bottom-nav {
         display: none;
@@ -105,13 +113,16 @@ footer {
 
    .intro {
         text-align: unset;
-        font-size: 24px;
+        font-size: 162%;
+        padding-bottom: 40px;
+        height: 30%;
    }
 
    .projects {
        display: inline-block;
        max-width: 45%;
        margin: 0 10px;
+       font-size: 12px;
    }
 
    .ending-text {
@@ -124,12 +135,37 @@ footer {
 
    .bottom-nav ul {
         list-style-type: none;
-        margin-left: 450px;
+        margin-right: 20px;
    }
 
    .bottom-nav li {
-        display: inline-block;
+        float: right;
         margin-left: 25px;
         font-weight: bold;
+
    }
+}
+
+@media (min-width:1024px) {
+    .name-top {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .main-nav ul {
+        text-align: right;
+    }
+
+    .main-nav li {
+        font-size: 30px;
+    }
+
+    header {
+        padding-bottom: 5%;
+    }
+
+    .projects {
+        font-size: 70%;
+        max-width: 30%;
+    }
 }
